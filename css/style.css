@@ -1,0 +1,334 @@
+html{
+	box-sizing: border-box;
+}
+
+*,
+*::after, 
+*::before{
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Inter', sans-serif;
+	background-image: url();
+}
+
+ul{
+	
+	
+}
+
+li{
+	list-style-type: none;
+	text-decoration: none;
+}
+
+a{
+	text-decoration:none;
+	color: inherit;
+}
+
+
+.container{
+	max-width: 1350px;
+	margin: 0 auto;
+}
+
+.main__container{
+	display: flex;
+	height: 100%;
+}
+
+.header__inner{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 32px;
+}
+
+.menu{
+	display: flex;
+	color: #151515;
+}
+
+.menu__list{
+	display: flex;
+	gap: 32px;
+	margin-left: 32px;
+	color: #151515;
+}
+
+.header__btn{
+	padding: 12px 24px;
+	color: #24B2A7;
+	font-weight: 700;
+	font-size: 15px;
+	border-radius: 10px;
+	border: 1px solid #F1F1F1;
+	background: transparent;
+}
+
+.header__btn:hover{
+	color: #fff;
+	background-color: #24B2A7;
+  	transition: .3s linear;
+}
+
+.card{
+	display: inline-block;
+	margin-top: 44px;
+	max-width: 320px;
+	padding-bottom: 250px;
+	background-color: #F5F8FA;
+	border-radius: 15px;
+	padding-left: 24px;
+	margin-right: 14px;
+}
+
+.main__img{
+	position: absolute;
+	top: 300px;
+}
+
+.main__icon{
+	padding-top: 24px;
+}
+
+.main__title{
+	margin-top: 24px;
+	margin-bottom: 16px;
+	font-weight: 400;
+}
+
+.main__text{
+	margin-bottom: 24px;
+	color: #72788A;
+	font-size: 15px;
+}
+
+.btn__main{
+	margin-bottom: 8px;
+	border-radius: 10px;
+	background-color: #24B2A7;
+	padding: 12px 24px;
+	border: none;
+	color: white;
+}
+
+.btn__main:hover{
+	background-color: #2A2E3E;
+	color: #fff;
+	transition: .3s linear;
+}
+
+.center{
+	margin-top: 118px;
+}
+
+.bottom__card{
+	display: flex;
+	justify-content: space-between;
+	background-color: #F5F8FA;
+	width: 100%;
+	padding: 100px 112px;
+	border-radius: 15px;
+}
+
+.bottom__card-title{
+	margin-bottom: 47px;
+	font-weight: 500;
+}
+
+.bottom__card-wrapper{
+	padding: 22px;
+	background-color: #fff;
+}
+
+.bottom__cardright-text{
+	font-size: 32px;
+}
+
+.bottom__card-right{
+	z-index: 1;
+}
+
+.bottom__card-title{
+	font-size: 24px;
+	z-index: 1;
+}
+
+.bottom__card-text{
+	color: #72788A;
+	z-index: 1;
+}
+
+span{
+	color: #24B2A7;
+}
+
+.bottom__card{
+	z-index: 1;
+	max-height: 306px;
+}
+
+.bottom{
+	margin-top: 56px;
+	margin-bottom: 56px;
+}
+
+.icon{
+	display: flex;
+	gap: 232px;
+	margin: 0 auto;
+}
+
+.bottom__title-item{
+	font-weight: 500;
+	margin: 0 auto;
+	margin-bottom: 32px;
+}
+
+.icon__wrapper{
+	display: flex;
+	justify-content: space-between;
+	gap: 140px;
+	margin-bottom: 56px;
+}
+
+.elipsee{
+	position: absolute;
+}
+
+.elipseee-1 {
+	top: 915px;
+	left: 1500px;
+
+}
+.elipseee-2 {
+	top: 920px;
+	left: 1180px;
+}
+.elipseee-3 {
+	top: 1090px;
+	left: 1800px;
+}
+.elipseee-4 {
+	top: 920px;
+	left: 1120px;
+}
+.elipseee-5 {
+	top: 930px;
+	left: 1850px;
+}
+.elipseee-6 {
+	top: 1040px;
+	left: 1890px;
+}
+.elipseee-7 {
+	top: 1000px;
+	left: 1090px;
+}
+
+.info__title{
+	margin-bottom: 56px;
+	margin: 0 auto;
+}
+
+.title__info{
+	margin: 0 auto;
+	margin-bottom: 56px;
+	font-weight: 500;
+}
+
+.card__info-title{
+	margin-bottom: 40px;
+	font-size: 48px;
+	color: #24B2A7;
+	font-weight: 500;
+	padding-left: 24px;
+	padding-top: 24px;
+
+}
+
+.card__info-text{
+	font-size: 24px;
+	font-weight: 500;
+	padding-left: 24px;
+}
+
+.card__info-subtitle{
+	font-size: 15px;
+	font-weight: 500;
+	color: #72788A;
+	padding-left: 24px;
+	line-height: 150%;
+	padding-bottom: 24px;
+	margin-top: 16px;
+}
+
+.card__info{
+	
+	display: grid;
+	justify-content: space-between;
+	border-radius: 15px;
+	width: 320px;
+	height: 270px;
+	border: 2px solid #F5F8FA;
+	margin-right: 16px;
+	margin: 0 auto;
+	margin-bottom: 56px;
+}
+
+.footer{
+	background-color: #F5F8FA;
+	height: 172px;
+}
+
+.footer__logo{
+	margin-top: 36px;
+	margin-bottom: 24px;
+}
+
+.right__footer-menu{
+	text-align: right;
+	
+}
+
+.right__footer-text{
+	font-size: 14px;
+
+	margin-bottom: 8px;
+}
+
+.right__footer-subtitle{
+	font-size: 14px;
+	text-align: right;
+}
+
+.right__footer-btn{
+	margin-top: 36px;
+	font-size: 15px;
+	font-weight: 500;
+	border-radius: 10px;
+	background-color: #24B2A7;
+	border: none;
+	color: #fff;
+	width: 162px;
+	height: 42px;
+	margin-bottom: 16px;
+}
+
+.right__footer-btn:hover{
+	color: #24B2A7;
+	background-color: #fff;
+  	transition: .3s linear;
+}
+
+.footer__wrapper{
+	max-width: 1350px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	gap: 650px;
+}
