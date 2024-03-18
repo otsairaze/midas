@@ -1,0 +1,154 @@
+* {
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: radial-gradient(
+      58.66% 100% at 0% 44.76%,
+      rgba(9, 74, 179, 0.4) 0%,
+      rgba(9, 74, 179, 0) 85.26%
+    ),
+    #0f0f11;
+  height: 500vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+header {
+  nav {
+    margin-top: 70px;
+    padding-bottom: 50px;
+    ul {
+      gap: 50px;
+    }
+    .r-block {
+      gap: 40px;
+    }
+  }
+}
+
+.main-block {
+  position: relative;
+  height: 1000px;
+  .main__title {
+    max-width: 312px;
+    font-size: 25px;
+    padding-top: 96px;
+  }
+}
+
+.main-right__block {
+  top: 0;
+  right: -200px;
+}
+
+.pos-block {
+  position: absolute;
+}
+
+.ellipse-1 {
+  top: 270px;
+  left: -210px;
+}
+
+.ellipse-2 {
+  z-index: 1;
+  top: 550px;
+  right: 270px;
+}
+
+.main-block__num {
+  margin-top: 330px;
+  margin-bottom: 600px;
+  p {
+    font-size: 25px;
+  }
+}
+
+.sale__card {
+  bottom: -150px;
+  right: 700px;
+}
+
+.sale__card-text {
+  bottom: 190px;
+  left: 50px;
+  max-width: 280px;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.popular__title-block {
+  h1 {
+    text-align: center;
+    font-size: 80px;
+    font-weight: 400;
+  }
+}
+
+.card {
+  margin-top: 40px;
+  max-width: 200px;
+  width: 100%;
+}
+
+.card-weight {
+  background-color: grey;
+  max-width: 50px;
+  text-align: center;
+  p {
+    font-size: 13px;
+  }
+}
+
+.card-info {
+  width: 233px;
+  p {
+    text-align: left;
+    font-size: 13px;
+    color: #e7e2e2;
+  }
+}
+
+.card-cart {
+  p {
+    font-size: 23px;
+    font-weight: 700;
+  }
+}
+
+.card-block {
+  gap: 60px;
+}
+
+.container {
+  color: #fff;
+  .cart-title {
+    font-size: 80px;
+    margin-bottom: 6px;
+  }
+  .cart-info__list {
+    gap: 191px;
+  }
+  .cart-info {
+    max-width: 1100px;
+    margin: 0 auto;
+    color: #9ea2aa;
+    text-transform: uppercase;
+  }
+}
+
+.cart-wrapper {
+  margin-top: 20px;
+  width: 1500px;
+  height: 180px;
+  background-color: black;
+}
